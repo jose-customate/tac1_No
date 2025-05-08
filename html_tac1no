@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koble Til Din Backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate hjelper bedrifter med å integrere sine backendsystemer med vår AI-drevne kundeserviceløsning. Koble til Salesforce, Zendesk, Shopify og mer.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> Norsk <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">English</a>
+          <a href="#">Deutsch</a>
+          <a href="#">Español</a>
+          <a href="#">Hrvatski</a>
+          <a href="#" class="active">Norsk</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integrasjoner</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Kanaler
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Priser</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blogg</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Logg Inn</a>
+              <a href="#" class="navbar-item btn-primary">Registrer deg</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+<main>
+  <section class="terms-content">
+    <h1>Vilkår og Betingelser</h1>
+    
+    <h2>1. Introduksjon</h2>
+    
+    <h3>1.1 Formålet med Vilkår og Betingelser</h3>
+    <p>Disse Vilkår og Betingelser ("Avtalen") regulerer bruken av tjenesten som leveres av Customated SSA UG (heretter "Customate") og beskriver rettighetene og forpliktelsene til brukere og tjenesteleverandøren. Ved å besøke vår nettside, delta i konsultasjoner og få tilgang til eller bruke vår tjeneste, samtykker du til å være bundet av disse vilkårene.</p>
+    
+    <h3>1.2 Anvendelsesområde</h3>
+    <p>Disse vilkårene gjelder for alle brukere som får tilgang til, bruker eller samhandler med vår tjeneste, enten som enkeltpersoner, bedrifter eller tredjeparter. De regulerer alle aktiviteter innenfor vår plattform, inkludert eventuelle tilknyttede funksjoner, innhold og verktøy.</p>
+    
+    <h2>2. Brukerregistrering og Kontoer</h2>
+    
+    <h3>2.1 Kontoopprettelse og Kvalifisering</h3>
+    <p>For å bruke vår tjeneste må Kunden opprette en konto ved å gi nøyaktig og fullstendig informasjon. Kunden må være minst 18 år eller ha juridisk kapasitet til å inngå en kontrakt. Ved registrering bekrefter Kunden kvalifikasjon til å bruke vår tjeneste.</p>
+    
+    <h3>2.2 Brukerens Ansvar</h3>
+    <p>Kunder er ansvarlige for å opprettholde konfidensialiteten av deres kontoinformasjon, inkludert brukernavn og passord. Kunden er utelukkende ansvarlig for nøyaktigheten, innholdet og lovligheten av alle Kundedata. Kunden samtykker spesifikt til ikke å bruke Tjenestene til å samle inn, lagre, behandle eller overføre Sensitiv Personlig Informasjon. Kunden samtykker i å bruke tjenesten på en ansvarlig og etisk måte, i samsvar med disse Vilkår og Betingelser og alle gjeldende lover.</p>
+    
+    <h3>2.3 Kontosikkerhet</h3>
+    <p>Kunden er pålagt å implementere passende tiltak for å beskytte sine kontoer. Kunden må varsle tjenesteleverandøren umiddelbart hvis uautorisert tilgang til kontoen mistenkes.</p>
+    
+    <h2>3. Betaling</h2>
+    
+    <h3>3.1 Abonnementsplaner og Avgifter</h3>
+    <p>Kunden samtykker til abonnementsplaner og tilhørende avgifter som spesifisert på tjenestens nettside eller avtalt i en separat kontrakt, og fastsatt i gjeldende Bestillingsskjema. I tillegg kan kunden ha en kredittbalanse hvis de overskrider bruksgrensen som er satt i den grunnleggende abonnementsplanen. Enhver endring i priser vil bli kommunisert på forhånd, og vil bli automatisk fakturert, med mindre kunden avbestiller abonnementet.</p>
+    
+    <h3>3.2 Betalingsmetoder og Betingelser</h3>
+    <p>Kunden kan betale for tjenesten ved hjelp av følgende betalingsmetoder: kredittkort (med 2% økning i pris) og direkte bankoverføringer. Betalinger må foretas på forhånd, med mindre annet er angitt i kontrakten.</p>
+    <p>Hvis Kunden kjøper Tjenestene via kredittkort, debetkort eller en annen tilbakevendende betalingsmetode som godtas av Customate, gjelder følgende vilkår: Gjentakende fakturering er autorisert, Kunden betaler eventuelle gebyrer for utenlandske transaksjoner, og er ansvarlig for enhver endring i betalingsmetodeinformasjonen.</p>
+    <p>Ugyldig Betaling: Hvis en betaling ikke gjennomføres på grunn av utløp av en Tilbakevendende Betalingsmetode, utilstrekkelige midler eller annet, forblir Kunden ansvarlig for eventuelle beløp som ikke er overført til Customate, og Customate kan, etter eget skjønn, enten (i) fakturere Kunden direkte for det manglende beløpet, (ii) fortsette å belaste den Tilbakevendende Betalingsmetoden når den er oppdatert av Kunden (hvis aktuelt) eller (iii) avslutte denne Avtalen.</p>
+    
+    <h3>3.3 Fakturering og Skatter</h3>
+    <p>Tjenesten vil utstede fakturaer i samsvar med Brukerens abonnementsplan. Customate vil belaste Kunden den månedlige abonnementsavgiften på forhånd for hver faktureringsperiode. Kundens faktura vil også inkludere eventuelle gebyrer for engangs-tjenester bestilt av Kunden. Alle avgifter er eksklusive gjeldende skatter, som vil bli belastet i samsvar med lokale lover og forskrifter.</p>
+    
+    <h3>3.4 Forsinkede Betalinger og Konsekvenser</h3>
+    <p>Hvis Kunden ikke betaler i tide, forbeholder Customate seg retten til å suspendere eller avslutte tilgangen til tjenesten.</p>
+    
+    <h3>3.5 Abonnementsperiode og Fornyelser</h3>
+    <p><strong>a) Månedlig Abonnementsperiode.</strong> For et måned-til-måned abonnement vil Abonnementsperioden automatisk fornyes månedlig. Hver påfølgende kontraktsmåned vil bli ansett som en "fornyelsesperiode". Kunden kan når som helst avbestille et måned-til-måned abonnement ved å gå til "Innstillinger"-siden i Dashbordet, og den effektive oppsigelsesdatoen vil være den siste dagen i den da gjeldende fornyelsesperioden.</p>
+    <p><strong>b) Årlig eller Flerårig Abonnementsperiode.</strong> For et årlig eller flerårig abonnement er den første Abonnementsperioden angitt i Bestillingsskjemaet. Abonnementsperioden vil automatisk fornyes for ytterligere, påfølgende tolv måneders perioder (hver, en "fornyelsesperiode"), med mindre en av partene gir den andre skriftlig varsel om intensjon om ikke å fornye minst tretti (30) dager før utløpet av den første Abonnementsperioden eller den da gjeldende fornyelsesperioden. Kunden vil sende skriftlig varsel om intensjon om ikke å fornye til contact@customate.ai</p>
+    
+    <h2>4. Tjenestebruk</h2>
+    
+    <h3>4.1 Tillatt Bruk</h3>
+    <p>Kunden kan få tilgang til og bruke tjenesten utelukkende for dens tiltenkte formål. Bruk av og tilgang til Tjenestene er kun tillatt for Godkjente Brukere. Dette er en abonnementsavtale for tilgang til og bruk av Tjenestene. Kunden erkjenner at de kun oppnår en begrenset rett til Tjenestene og at ingen eierrettigheter overføres til Kunden under denne Avtalen. Bruken må overholde gjeldende lover, kontraktsavtaler og disse Vilkår og Betingelser.</p>
+    
+    <h3>4.2 Forbudte Aktiviteter</h3>
+    <p>Kunden og alle brukere er strengt forbudt fra:</p>
+    <ul>
+      <li>Å bruke tjenesten til ulovlige, svindel eller villedende formål;</li>
+      <li>Å manipulere eller forsøke å utnytte AI-systemet utover dets tiltenkte funksjon.</li>
+      <li>Å distribuere chatboten på en måte som fremmer hatytringer, vold eller ulovlig innhold.</li>
+      <li>Å overskride rimelig brukspolicy som kan påvirke systemstabilitet eller forringe tjenesten for andre brukere.</li>
+    </ul>
+    
+    <h3>4.3 Bruksgrense</h3>
+    <p>Tjenesten kan pålegge bruksgrenser, inkludert, men ikke begrenset til antall interaksjoner, API-forespørsler eller chatbot-økter.</p>
+    
+    <h3>4.4 Tilbakemelding</h3>
+    <p>Kunden kan alltid sende Tilbakemelding til Customate. Customate kan fritt bruke eller utnytte Tilbakemelding i forbindelse med Tjenestene og selskapets Teknologi. Kunden gir herved Customate en evig, ikke-eksklusiv, overførbar, ugjenkallelig, verdensomspennende, royalty-fri lisens (med rett til å underlisensiere) til å lage, bruke, selge, tilby for salg, reprodusere, modifisere, distribuere, gjøre tilgjengelig, offentlig vise og utføre, avsløre og på annen måte kommersielt utnytte Tilbakemeldingen.</p>
+    
+    <h3>4.5 Bruk av Kundens Navn og Logo</h3>
+    <p>Ved å bli kunde hos Customate, gir Kunden rett til å vise sitt firmanavn og logo på Customate nettsted, landingssider og markedsføringsmateriell for å indikere vårt forretningsforhold. Denne bruken er kun for markedsføringsformål og impliserer ikke noen godkjenning. Kunden kan velge å avstå, ved å sende en skriftlig forespørsel til jose@customate.ai.</p>
+    
+    <h3>4.6 Eierskap av Nettstedinnhold</h3>
+    <p>All tekst, bilder, logoer, varemerker og annet innhold på nettstedet er immateriell eiendom tilhørende tjenesteleverandøren eller dens lisensgivere med mindre annet er angitt. Uautorisert reproduksjon, distribusjon eller modifisering av ethvert materiale er strengt forbudt uten skriftlig forhåndssamtykke.</p>
+    
+    <h2>5. Tredjepartsinnhold og Lisensiering</h2>
+    
+    <h3>5.1 Bruk av Tredjepartsinnhold</h3>
+    <p>Tjenesten kan integrere eller gi tilgang til tredjepartsinnhold, inkludert programvare, API-er, datakilder eller andre eksterne tjenester. Brukeren erkjenner at slikt tredjepartsinnhold er underlagt de respektive leverandørenes vilkår og betingelser og lisensavtaler.</p>
+    
+    <h3>5.2 Lisensiering og Immaterielle Rettigheter</h3>
+    <p>Alt tredjepartsinnhold som brukes i tjenesten forblir eiendommen til sine respektive eiere. Kunden får en ikke-eksklusiv, ikke-overførbar lisens til å bruke slikt innhold strengt innenfor omfanget av tjenestens tiltenkte funksjonalitet. Enhver uautorisert reproduksjon, distribusjon eller modifisering av tredjepartsinnhold er forbudt.</p>
+    
+    <h3>5.3 Ansvarsfraskrivelse</h3>
+    <p>Customate påtar seg intet ansvar for nøyaktigheten, tilgjengeligheten eller ytelsen til tredjepartsinnhold. Enhver forstyrrelse, feil eller tap som følge av tredjepartsintegrasjoner er utenfor leverandørens kontroll. Kunden og alle brukere samtykker i at leverandøren ikke skal holdes ansvarlig for skader som oppstår fra tredjepartsinnhold, inkludert sikkerhetssårbarheter, databrudd eller lisenstvister.</p>
+    
+    <h2>6. Ansvar og Garantier</h2>
+    
+    <h3>6.1 Tjenestegarantier og Begrensninger</h3>
+    <p>Tjenesten leveres "som den er" og "som tilgjengelig". Selv om leverandøren streber etter høy tilgjengelighet og pålitelighet, gis det ingen garantier for uavbrutt eller feilfri drift. Leverandøren garanterer ikke at tjenesten vil møte alle spesifikke krav eller fungere uten forstyrrelser, feil eller sårbarheter. Customate vil ikke ha noe ansvar for feil i overføring, uautorisert tredjepartstilgang eller andre årsaker utenfor Customates kontroll.</p>
+    
+    <h3>6.2 Ansvar for Feil eller Nedetid</h3>
+    <p>Leverandøren er ikke ansvarlig for midlertidig utilgjengelighet, feil eller tjenesteforstyrrelser på grunn av vedlikehold, tekniske feil, cyberangrep eller force majeure-hendelser.</p>
+    
+    <h3>6.3 Andre Customate Ansvar</h3>
+    <p>Leverandøren er kun ansvarlig for skader forårsaket av grov uaktsomhet eller forsettlig tjenesteforsømmelse, som tillatt av gjeldende lov. Ansvar for indirekte, tilfeldige eller følgeskader - som tapt fortjeneste, datatap eller forretningsforstyrrelser - er utelukket. Kunden påtar seg fullt ansvar for å sikre at tjenestebruken overholder gjeldende forskrifter og forretningskrav.</p>
+    <p>Kunden vil ikke inngå forlik i noen krav som involverer Customate uten Customates skriftlige forhåndssamtykke, med mindre forliket fullstendig og betingelsesløst fritar Customate og ikke krever at Customate betaler noe beløp, utfører noen handling eller innrømmer noe ansvar.</p>
+    
+    <h3>6.4 Kundeansvar</h3>
+    <p>Kunden vil holde Customate skadesløs, forsvare og beskytte mot enhver og alle tredjepartskrav (inkludert, uten begrensning, Personer), kostnader, skader, tap, forpliktelser og utgifter (inkludert rimelige advokathonorarer og kostnader) som oppstår fra eller relaterer til Kundedata, Kundens bruk av en Tredjeparts Meldingsapp, Tredjepartsplattform eller brudd eller påstått brudd av Kunden på Avsnitt 2.2.</p>
+    
+    <h2>7. Oppsigelse og Avbestilling</h2>
+    
+    <h3>7.1 Avbestilling av Brukeren</h3>
+    <p>Kunden kan når som helst avbestille sitt abonnement eller konto ved å følge avbestillingsprosedyrene som er angitt i tjenesteplattformen. Avbestillingen vil tre i kraft ved slutten av den nåværende faktureringsperioden, med mindre annet er angitt. Kunden vil forbli ansvarlig for eventuelle gebyrer påløpt frem til avbestillingsdatoen.</p>
+    
+    <h3>7.2 Oppsigelse av Leverandøren</h3>
+    <p>Leverandøren forbeholder seg retten til å avslutte eller suspendere Brukerens tilgang til tjenesten i tilfelle av brudd på disse Vilkår og Betingelser, inkludert men ikke begrenset til uautorisert bruk, manglende betaling i tide, eller brudd på gjeldende lover, eller av enhver annen grunn, utelukkende etter selskapets skjønn. Leverandøren kan gi forhåndsvarsel der det er mulig, men umiddelbar oppsigelse kan forekomme i tilfeller av alvorlige brudd.</p>
+    
+    <h3>7.3 Konsekvenser av Oppsigelse</h3>
+    <p>Ved oppsigelse eller avbestilling av Kundens konto, vil tilgang til tjenesten bli tilbakekalt, og alle data knyttet til kontoen kan bli slettet, med forbehold om eventuelle juridiske eller kontraktsmessige krav til dataoppbevaring. Kunden vil forbli ansvarlig for eventuelle utestående betalinger på tidspunktet for oppsigelse.</p>
+    
+    <h2>8. Andre elementer</h2>
+    <p>Retningslinjene for Databeskyttelse og Personvern, Sikkerhet og den juridiske selskapsstatus for Customate er delt på nettstedet: www.customate.ai</p>
+    
+    <h2>9. Endringer i Vilkårene</h2>
+    
+    <h3>9.1 Rett til å Endre Vilkårene</h3>
+    <p>Leverandøren forbeholder seg retten til å modifisere, oppdatere eller endre disse Vilkår og Betingelser når som helst. Disse endringene kan gjøres for å gjenspeile endringer i loven, tjenesteforbedringer eller av andre operasjonelle årsaker.</p>
+    
+    <h3>9.2 Varsling om Endringer</h3>
+    <p>Kunden vil bli varslet om eventuelle vesentlige endringer i Vilkår og Betingelser via e-post eller gjennom en melding på tjenesteplattformen. Varsler vil bli sendt på forhånd der det er mulig, og eventuelle oppdateringer vil bli tydelig indikert med ikrafttredelsesdatoen for endringene.</p>
+    
+    <h3>9.3 Brukerens Godkjenning av Endringer</h3>
+    <p>Fortsatt bruk av tjenesten etter varsling om endringer vil bli ansett som Brukerens aksept av de oppdaterte Vilkår og Betingelser. Hvis Kunden ikke er enig i endringene, kan de avbestille sin konto som angitt i Avsnitt 7 (Oppsigelse og Avbestilling).</p>
+    
+    <h2>10. Tvisteløsning og Gjeldende Lov</h2>
+    
+    <h3>10.1 Klageprosess</h3>
+    <p>I tilfelle av en tvist eller klage, bør Brukeren først kontakte leverandørens kundesupportteam for å forsøke å løse problemet i minnelighet. Leverandøren vil gjøre rimelige anstrengelser for å adressere Brukerens bekymringer raskt og i samsvar med gjeldende lover. Hvis tvisten ikke kan løses gjennom direkte kommunikasjon, kan Kunden søke megling eller alternativ tvisteløsning (ADR) i samsvar med gjeldende forskrifter.</p>
+    
+    <h3>10.2 Gjeldende Lov</h3>
+    <p>Disse Vilkår og Betingelser er underlagt og tolkes i samsvar med lovene i Tyskland, uten hensyn til lovkonfliktbestemmelser.</p>
+    
+    <h3>10.3 Jurisdiksjon</h3>
+    <p>Enhver tvist som ikke kan løses gjennom uformell kommunikasjon eller ADR vil være underlagt eksklusiv jurisdiksjon til kompetente domstoler i Tyskland.</p>
+    
+    <h2>11. Fravær av en Diverse-klausul</h2>
+    <p>Denne avtalen inkluderer ikke et separat "Diverse"-avsnitt, da slike bestemmelser er iboende innebygd i kontraktens natur. Prinsippene som vanligvis dekkes under en diverse-klausul - som delbarhet, avstående og håndhevbarhet - er grunnleggende aspekter av kontraktstolkning og anvendelse, noe som gjør deres eksplisitte omformulering unødvendig. Deres utelatelse reduserer ikke deres gyldighet eller effekt, men erkjenner snarere kontraktens selvtilstrekkelighet som et juridisk instrument.</p>
+    
+    <h2>12. Kontaktinformasjon</h2>
+    
+    <h3>12.1 Support og Forespørsler</h3>
+    <p>For eventuelle spørsmål, bekymringer eller støtteforespørsler kan Brukeren kontakte vårt kundesupportteam gjennom følgende kanaler:</p>
+    <ul>
+      <li>E-post: admin (a,t) customate.ai </li>
+      <li>Customate Chat: Tilgjengelig på tjenesteplattformen</li>
+    </ul>
+    <p>Support er tilgjengelig i arbeidstiden, og vi streber etter å svare på forespørsler så raskt som mulig.</p>
+    
+    <h3>12.2 Rapportering av Problemer</h3>
+    <p>Hvis Brukeren opplever tekniske problemer, sikkerhetsproblemer eller brudd på Vilkår og Betingelser, bør de rapportere dem til leverandøren umiddelbart. Rapporter kan sendes via:</p>
+    <ul>
+      <li>E-post: admin (a,t) customate.ai </li>
+    </ul>
+    <p>Leverandøren vil undersøke alle rapporter og iverksette passende tiltak basert på alvorlighetsgraden og arten av problemet.</p>
+  </section>
+</main>
+
+  </body>
+</html>
